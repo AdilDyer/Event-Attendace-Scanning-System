@@ -21,6 +21,16 @@
       "@/*": ["./src/*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    ".next/types/**/*.ts",
+    "src/app/api/sendEmailsToUser/route.js",
+    "src/app/MarkAttendancePage/page.js",
+    "src/app/api/saveUser/route.js",
+    "src/app/api/markAttendance/route.js",
+    "src/app/(home)/page.js"
+  ],
   "exclude": ["node_modules"]
 }
